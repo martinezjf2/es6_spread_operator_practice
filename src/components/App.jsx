@@ -9,7 +9,7 @@ function App() {
         <h1>To-Do List</h1>
       </div>
       <div className="form">
-        <input type="text" />
+        <input type="text" value={inputText} />
         <button>
           <span>Add</span>
         </button>
